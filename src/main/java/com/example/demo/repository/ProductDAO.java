@@ -1,7 +1,6 @@
-package repository;
+package com.example.demo.repository;
 
-import entity.Product;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.demo.entity.Product;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
 
